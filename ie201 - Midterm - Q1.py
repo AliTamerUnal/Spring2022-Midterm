@@ -18,17 +18,17 @@
 """
 
 m = MAP();
-L1 = m.add_location(CITY("Istanbul"));
-L5 = m.add_location(CITY("Konya"));
+L1 = m.add_location(CITY("Istanbul"))
+L5 = m.add_location(CITY("Konya"))
 
-L2 = m.add_location(University(L1, "BU"));
-L6 = m.add_location(University(L5, "Selcuk"));
-L3 = m.add_location(University(L1, "ITU"));
-L4 = m.add_location(HighSchool(L1, "DSI", "German"));
-L7 = m.add_location(HighSchool(L1, "GS", "French"));
-L8 = m.add_location(HighSchool(L5, "KAL", "English"));
+L2 = m.add_location(University(L1, "BU"))
+L6 = m.add_location(University(L5, "Selcuk"))
+L3 = m.add_location(University(L1, "ITU"))
+L4 = m.add_location(HighSchool(L1, "DSI", "German"))
+L7 = m.add_location(HighSchool(L1, "GS", "French"))
+L8 = m.add_location(HighSchool(L5, "KAL", "English"))
 
-m.set_distance(L2, L4, 10);
-m.set_distance(L6, L3, 50);
+m.set_distance(L2, L4, 10)
+m.set_distance(L6, L3, 50)
 
-m.print();
+m.print()
