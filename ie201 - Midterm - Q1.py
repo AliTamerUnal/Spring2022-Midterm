@@ -17,7 +17,7 @@
 		Selcuk -> ITU = 50
 """
 
-m = MAP();
+m = MAP()
 L1 = m.add_location(CITY("Istanbul"))
 L5 = m.add_location(CITY("Konya"))
 
