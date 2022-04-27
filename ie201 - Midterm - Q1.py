@@ -1,7 +1,7 @@
 ﻿"""
 	(20 points)
 	
-	Add necessary code so that, when we run the program, the following output is generated. Do not change the given code function. 
+	Add necessary code so that, when we run the program, the following output is generated. Do not change the given code. 
 	All your code should be written in classes. Use polymorphism as much as possible.
 
 		=> Istanbul
